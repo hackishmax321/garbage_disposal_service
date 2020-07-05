@@ -1,0 +1,448 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Encode+Sans|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Abel|Courgette|Kaushan+Script|Noto+Sans+SC|Open+Sans|Open+Sans+Condensed:300|Raleway|ZCOOL+XiaoWei');
+
+  .content{
+  	margin-left: 915px;
+    margin-bottom: -32px;
+  }
+
+#main {
+  height:100%;
+  width:100%;
+  
+  position: absolute;
+}
+
+#contact{
+  
+	background-color:lightgray; 
+	font color: white;
+  height: 31px;
+
+
+}
+
+
+  .form{
+
+  	float: right;
+    display: none;
+  	background-color:#273c75;
+  	padding: 10px;
+    width:50%;
+    height: 300px;
+  	color: black;
+
+
+
+  }
+
+  #warn {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    float: left;
+    background-color:#eb4d4b;
+    padding: 10px;
+    width:50%;
+    height: 330px;
+    color: black;
+  }
+  .markq{
+
+  	background-image: linear-gradient(black,#343a40);
+  	color: white;
+  	lighting-color: white; 
+  	margin-top: 1PX;
+  
+  }
+  .bg-info
+
+  	 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+  #brandN{
+  	margin-left: 10px;
+  	margin-top: 20px;
+    padding: 0PX;
+    padding-left: 10PX;
+    padding-right: 10PX;
+}
+
+
+  .navBar{
+  background-color:black;
+  border-bottom: 4px ridge #00cec9;
+  border-left: 10px ridge #00cec9;
+  height: 20%;
+
+
+  }
+.navA ul li a{
+	float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  transition: .8s;
+  font-weight: bold;
+	
+}
+
+.navA ul li a:hover{
+  color: #00cec9;
+  text-shadow: 0px 0px 20px #00cec9;
+  
+}
+
+.navA ul li {
+
+  position: relative;
+  left: 230px;
+  top: 8px;
+  display: inline-block;
+  padding: 10px 2%;
+
+}
+.navbar-nav{
+	margin-right: 10px;
+    margin-top: -60px;
+	list-style: none; 
+
+}
+
+#login {
+  position: absolute;
+  height:50px;
+  width: 180px;
+  top: 69px;
+  left:85%;
+ 
+
+}
+
+#login a {
+  position: absolute;
+  font-family: font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border:2px ridge white;
+  border-radius: 30px; 
+  transition: 0.8s;
+  z-index: 100;
+}
+
+#login a:hover {
+  animation: animate 8s linear infinite;
+  
+}
+
+#login a ion-icon {
+  position: absolute;
+  left:10px;
+  top:10px;
+  color: black;
+  padding: 5px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+@keyframes animate 
+{
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+#login a:before {
+  content: '';
+  position: absolute;
+  top:-5px;
+  left:-5px;
+  right:-5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 45px; 
+  opacity: 0;
+  transition: 0.8s;
+}
+
+#login a:hover:before {
+  filter: blur(20px);
+  opacity: 1;
+}
+
+.all{
+
+margin-top: -30px;
+}
+
+#wallpaper {
+  margin:auto;
+
+  width:100%;
+  height: 86%;
+  max-height: 2000px;
+  background-color: gray;
+  border-bottom: 4px ridge #2d3436;
+
+}
+
+#wallpaper2 {
+  margin:auto;
+
+  width:100%;
+  
+  max-height: 2000px;
+  background-color: gray;
+ 
+
+}
+
+#wall2 {
+  margin:auto;
+  padding: 75px 50px;
+  width:70%;
+  
+  background-color: #f5f6fa;
+  
+  border-bottom: 4px ridge #2d3436;
+  text-align: justify;
+
+}
+
+#next {
+  position: absolute;
+  right:20%;
+
+}
+
+#table2{
+  width:100%;
+  height:200px;
+}
+
+#wall2 form #com {
+  width:100%;
+}
+
+
+#articleT {
+  font-family: font-family: 'Abel', sans-serif;
+  font-size: 100px;
+  text-align: left;
+}
+#wall2 h5 {
+  text-align: left;
+}
+
+#slide {
+  width:100%;
+  height: 99%;
+  overflow: hidden;
+}
+
+#anime {
+  position: absolute;
+  margin:auto;
+  padding: 0px;
+  top:15px;
+  left:30%;
+  background-color: blue;
+  height:300px;
+  width:40%;
+}
+
+#wall {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top:120px;
+  padding: 50px;
+  color: white;
+  text-align: center;
+
+
+}
+
+#header {
+  font-family: 'Courgette', cursive;
+  font-size: 130px;
+}
+
+#header strong {
+  color: #32ff7e;
+}
+
+#btn-set {
+  position: absolute;
+  top: 570px;
+  left: 50%;
+  margin: auto;
+
+  height: 100px;
+  width: 200px;
+  
+
+}
+
+#btn-set a {
+  position: absolute;
+  font-family: font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background: linear-gradient(90deg,#1abc9c, #2ecc71, #3498db, #7ed6df);
+  background-size: 400%;
+  border:2px ridge white;
+  border-radius: 30px; 
+  transition: 0.8s;
+  z-index: 100;
+}
+
+#btn-set a:hover {
+  animation: animate 8s linear infinite;
+  
+}
+
+#btn-set a ion-icon {
+  position: absolute;
+  left:10px;
+  top:10px;
+  color: black;
+  padding: 5px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+@keyframes animate 
+{
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+#btn-set a:before {
+  content: '';
+  position: absolute;
+  top:-5px;
+  left:-5px;
+  right:-5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#1abc9c, #2ecc71, #3498db, #7ed6df);
+  background-size: 400%;
+  border-radius: 45px; 
+  opacity: 0;
+  transition: 0.8s;
+}
+
+#btn-set a:hover:before {
+  filter: blur(20px);
+  opacity: 1;
+}
+
+
+
+#logright{
+      position: absolute;
+      top:58px;
+      color: white;
+      right:40px;
+    }
+
+
+
+#vision {
+
+  height: 100%;
+  width: 100%;
+  background-color: #2ecc71;
+  border-bottom: 4px ridge #27ae60;
+
+}
+
+#font2 {
+  font-size: 25px;
+}
+
+#title {
+  margin: auto;
+  padding: 10px;
+  height: 50%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center; 
+  width: 70%;
+}
+
+#header2 {
+  font-family: 'Courgette', cursive;
+  font-size: 150px;
+  color: white;
+}
+
+#mission {
+
+  height: 100%;
+  width: 100%;
+  background-color: #1abc9c;
+  border-bottom: 4px ridge #16a085;
+}
+#map-contain {
+  width: 100%;
+  height:60%;
+  padding: 10px;
+  background-color: #2f3640;
+}
+
+
+
+.imageDust{
+  margin-left: 40px;
+  margin-top: 10px;
+ background: lightgray;
+background-position: center;
+}
+#resy{
+  
+  margin-left: 280px;
+  margin-top: -150px;
+
+}
+.footer{
+
+  height: 20%;
+  width: 100%;
+  background-color: black;
+}
+
+#para{
+  padding-top: 100px;
+  margin-left: 20px;
+  color: white;
+}
+
+
+
+.but43 {
+  position: absolute;
+  bottom: -2100px;
+  right:20%;
+
+}

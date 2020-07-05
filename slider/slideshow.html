@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slideshow</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<style>body {
+  background-image: url("slider/background-blurred-1587.jpg");
+  background-repeat: repeat;
+}
+</style>	
+</head>
+<body>
+
+</style>
+
+	<div id="container">
+		<img class="slides" src="slider/pic (1).jpg"/>
+		<img class="slides" src="slider/pic (2).jpg"/>
+		<img class="slides" src="slider/pic (3).jpg"/>
+		<img class="slides" src="slider/pic (4).jpg"/>
+		<img class="slides" src="slider/pic (5).jpg"/>
+		
+		<button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094;</button>
+		<button class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+
+		
+	</div>
+
+</body>
+<script>
+	var index=1;
+
+	function plusIndex(n){
+		index =index+1;
+		showImage(index);
+	}
+
+	showImage(1);
+
+	function showImage(n) {
+		var p;
+		var x=document.getElementsByClassName("slides");
+		if (n > x.length) {index =1};
+		if (n < x) {index =x.length};
+		for (p = 0; p<x.length; p++) 
+		{
+			x[p].style.display="none";
+		}
+		x[index-1].style.display="block";
+		
+	}
+	autoSlide();
+	function autoSlide(){
+		var p;
+		var x=document.getElementsByClassName("slides");
+			for (p = 0; p<x.length; p++) 
+		{
+			x[p].style.display="none";
+		}
+		if(index > x.length){index = 1}
+		x[index-1].style.display="block";
+        index++;
+		setTimeout(autoSlide,2000);
+	}
+
+</script>
+</html>
